@@ -11,11 +11,11 @@ const About = () => {
                 <div className="container">
                     <div className="row justify-content-center align-items-center">
                      
-                        <div className="col-5">
+                        <div className="col-lg-5">
                             <img className='w-100' src="/img/about1.jpg" alt="" />
                         </div>
 
-                        <div className="col-5">
+                        <div className="col-lg-5">
                             <div className="info">
                                 <h4 className='main-title'>Основные виды деятельности и услуг:</h4>
                          

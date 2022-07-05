@@ -8,11 +8,11 @@ const Advantages = () => {
         <div className='advantages'>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-5">
+                    <div className="col-lg-5">
                         <h2 className='main-title'>Наши преимущества</h2>
                     </div>
-                    <div className="col-5 row">
-                        <div className="col-6">
+                    <div className="col-lg-5 row">
+                        <div className="col-sm-6">
                             <div className="card">
                                 <div className="card-top">
                                     <FontAwesomeIcon className='icon' icon={faThumbsUp} />
@@ -23,7 +23,7 @@ const Advantages = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <div className="card">
                                 <div className="card-top">
                                     <FontAwesomeIcon className='icon' icon={faRecycle} />
@@ -34,7 +34,7 @@ const Advantages = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <div className="card">
                                 <div className="card-top">
                                     <FontAwesomeIcon className='icon' icon={faDollarSign} />
@@ -45,7 +45,7 @@ const Advantages = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className="col-sm-6">
                             <div className="card">
                                 <div className="card-top">
                                     <FontAwesomeIcon className='icon' icon={faClock} />

@@ -7,7 +7,7 @@ const portfolio = () => {
         <div className="portfolio">
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-10">
+                    <div className="col-sm-10">
                         <h2 className="main-title">Галерея работ</h2>
                         <div className="image-gallary">
                             <div className="image-box">

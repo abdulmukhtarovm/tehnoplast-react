@@ -23,8 +23,8 @@ const HeaderSlider = () => {
                 <SwiperSlide className="first-slide">
                     <div className="blur"></div>
                     <div className="container z-2">
-                        <div className="row align-items-center justify-content-center">
-                            <div className="col-5">
+                        <div className="row align-items-center justify-content-center flex-column-reverse flex-lg-row">
+                            <div className="col-lg-5">
                                 <div className="card product-card">
                                     <h2>Мы лучшие <span>специалисты</span> в сфере строительства</h2>
                                     <p>Созданный в 2012 году OOO«TehnoPlast» уверенно лидирует в области производства сэндвич панелей и пенопласта.</p>
@@ -33,7 +33,7 @@ const HeaderSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-5 d-flex align-items-center justify-content-end">
+                            <div className="col-lg-5 d-flex align-items-center justify-content-lg-end justify-content-center">
                                 <div className="img-card kottaro">
                                     <div className="img">
                                         <img className="w-100" src="/img/we.png" alt="" />
@@ -43,22 +43,24 @@ const HeaderSlider = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide  className="second-slide">
+                <SwiperSlide className="second-slide">
                     <div className="blur"></div>
-                    <div className="row align-items-center justify-content-center position-relative">
-                        <div className="col-5">
-                            <div className="card product-card ">
-                                <h2>Фасадный декор из <span>пенопласта</span></h2>
-                                <p>Теплоизоляционные свойства пенопласта нашли применение в покрытии стен. Лёгкость обработки материала позволило делать фасадный декор из пенопласта, заменив такие материалы, как хрупкий гипс, дорогой мрамор, тяжёлый бетон.</p>
-                                <div className="myBtn">
-                                    <a className="btn" href="tel:+998998150303">Подробнее</a>
+                    <div className="container">
+                        <div className="row align-items-center justify-content-center flex-column-reverse flex-lg-row position-relative">
+                            <div className="col-lg-5">
+                                <div className="card product-card ">
+                                    <h2>Фасадный декор из <span>пенопласта</span></h2>
+                                    <p>Теплоизоляционные свойства пенопласта нашли применение в покрытии стен. Лёгкость обработки материала позволило делать фасадный декор из пенопласта, заменив такие материалы, как хрупкий гипс, дорогой мрамор, тяжёлый бетон.</p>
+                                    <div className="myBtn">
+                                        <a className="btn" href="tel:+998998150303">Подробнее</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-5 d-flex align-items-center">
-                            <div className="img-card kichkinaro">
-                                <div className="img1">
-                                    <img className="w-100" src="/img/headerslide2.png" alt="" />
+                            <div className="col-lg-5 d-flex align-items-center justify-content-center">
+                                <div className="img-card kichkinaro">
+                                    <div className="img1">
+                                        <img className="w-100" src="/img/headerslide2.png" alt="" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +70,7 @@ const HeaderSlider = () => {
                     <div className="blur"></div>
                     <div className="container z-2">
                         <div className="row align-items-center justify-content-left">
-                            <div className="col-5">
+                            <div className="col-lg-5">
                                 <div className="card product-card">
                                     <h2><span>Пенопласт</span> для тепло и шумоизоляции</h2>
                                     <p>Шумоизоляция пенопластом - бюджетное мероприятие, подходящие для снижения уровня слышимости в обычных условиях. <br />
@@ -85,8 +87,8 @@ const HeaderSlider = () => {
                 <SwiperSlide className="fourth-slide">
                     <div className="blur"></div>
                     <div className="container z-2">
-                        <div className="row align-items-center justify-content-center">
-                            <div className="col-5">
+                        <div className="row align-items-center justify-content-center flex-column-reverse flex-lg-row">
+                            <div className="col-lg-5">
                                 <div className="card product-card">
                                     <h2><span>Сендвич панели</span> из пенопласта, из минеральной ваты</h2>
                                     <p>Мы предоставляем сендвич панели высокого стандарта для ваших бизнес-решений и конструкторов.</p>
@@ -95,8 +97,8 @@ const HeaderSlider = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-5">
-                                <div className="img-card">
+                            <div className="col-lg-5">
+                                <div className="img-card justify-content-center">
                                     <div className="img4">
                                         <img className="w-100" src="/img/head123.jpg" alt="" />
                                     </div>

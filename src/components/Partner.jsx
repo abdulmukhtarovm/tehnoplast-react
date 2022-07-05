@@ -5,10 +5,10 @@ const Partner = () => {
         <div className='partners'>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-5">
+                    <div className="col-lg-5">
                         <h2 className="main-title">Наши партнёры</h2>
                     </div>
-                    <div className="col-5 row">
+                    <div className="col-lg-5 row">
                         <div className="col-6">
                             <div className="img mb-4">
                                <img className='w-100' src="/img/partner1.png" alt="" />
