@@ -7,15 +7,27 @@ import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
   const [burger, setBurger] = useState(false)
+  const [navbar, setNavbar] = useState(false)
 
   const changeLanguage = (e) => {
     localStorage.setItem(LANGUAGE, e.target.value)
     document.location.reload(true)
   }
   const location = useLocation()
+
+  const changeNavbar = () => {
+
+    if (window.scrollY >= 70) {
+      setNavbar(true);
+    } else {
+      setNavbar(false)
+    }
+  }
+  window.addEventListener('scroll', changeNavbar);
+
   return (
     <>
-      <div className="navBar">
+      <div className={`navBar ${navbar ? 'active' : ''}`}>
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-2 col-md-4 col-6">

@@ -4,6 +4,145 @@ $colorOrange: #DE5900;
 body {
     font-family: 'Roboto', sans-serif;
 
+
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #ffff;
+        z-index: 10000;
+        transition: all ease-in 1s;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .loader {
+            position: relative;
+            width: 125px;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-image: linear-gradient(#151e35 50px, transparent 0),
+                linear-gradient(#151e35 50px, transparent 0),
+                linear-gradient(#151e35 50px, transparent 0),
+                linear-gradient(#151e35 50px, transparent 0),
+                linear-gradient(#151e35 50px, transparent 0);
+            background-size: 10px 100%;
+            background-position: 0px 90px, 15px 78px, 30px 66px, 45px 58px, 60px 50px;
+            animation: pillerPushUp 4s linear infinite;
+        }
+
+        .loader:after {
+            content: '';
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 15px;
+            height: 15px;
+            background: $colorOrange;
+            border-radius: 50%;
+            animation: ballStepUp 4s linear infinite;
+        }
+
+        @keyframes pillerPushUp {
+
+            0%,
+            40%,
+            100% {
+                background-position: 0px 90px, 15px 78px, 30px 66px, 45px 58px, 60px 50px
+            }
+
+            50%,
+            90% {
+                background-position: 0px 50px, 15px 58px, 30px 66px, 45px 78px, 60px 90px
+            }
+        }
+
+        @keyframes ballStepUp {
+            0% {
+                transform: translate(0, 0)
+            }
+
+            5% {
+                transform: translate(8px, -14px)
+            }
+
+            10% {
+                transform: translate(15px, -10px)
+            }
+
+            17% {
+                transform: translate(23px, -24px)
+            }
+
+            20% {
+                transform: translate(30px, -20px)
+            }
+
+            27% {
+                transform: translate(38px, -34px)
+            }
+
+            30% {
+                transform: translate(45px, -30px)
+            }
+
+            37% {
+                transform: translate(53px, -44px)
+            }
+
+            40% {
+                transform: translate(60px, -40px)
+            }
+
+            50% {
+                transform: translate(60px, 0)
+            }
+
+            57% {
+                transform: translate(53px, -14px)
+            }
+
+            60% {
+                transform: translate(45px, -10px)
+            }
+
+            67% {
+                transform: translate(37px, -24px)
+            }
+
+            70% {
+                transform: translate(30px, -20px)
+            }
+
+            77% {
+                transform: translate(22px, -34px)
+            }
+
+            80% {
+                transform: translate(15px, -30px)
+            }
+
+            87% {
+                transform: translate(7px, -44px)
+            }
+
+            90% {
+                transform: translate(0, -40px)
+            }
+
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+    }
+
+
+
+
+
     h1,
     h2,
     h3,
@@ -107,6 +246,59 @@ body {
     .navBar {
         padding: 20px 0;
         box-shadow: 0 0 10px $colorOrange;
+        position: relative;
+        // transition: all 0.5s ease;
+        position: sticky;
+        top: 0;
+
+        &.active {
+            background: #dedede71;
+            border-radius: 0 0 20px 20px;
+            backdrop-filter: blur(50px);
+            border-radius: 0;
+            margin: 0;
+            animation: anim .8s ease-in-out;
+
+            // position: fixed; !!!!!!!! hozir nima qili        bitta scroll qilin
+            width: 100%;
+            left: 0;
+            top: 0;
+            z-index: 999;
+            background: #fff;
+
+            .burger {
+
+                .burger1,
+                .burger3 {
+                    background: $colorOrange;
+                }
+            }
+
+            li {
+                a {
+                    color: #000 !important;
+
+                    &:hover {
+                        color: $colorOrange !important;
+                    }
+
+                    @media (max-width:992px) {
+                        color: #fff !important;
+                    }
+                }
+            }
+
+
+            @keyframes anim {
+                0% {
+                    top: -100%;
+                }
+
+                100% {
+                    top: 0;
+                }
+            }
+        }
 
         .active-link {
             border-bottom: 2px solid $colorOrange;
@@ -717,10 +909,10 @@ body {
             margin: 20px 0 0 !important;
         }
 
-        .swiper-wrapper{
+        .swiper-wrapper {
             display: flex;
             align-items: center;
-        
+
         }
     }
 

@@ -50,38 +50,38 @@ const Partners = () => {
                 modules={[Autoplay, FreeMode]}
                 className="mySwiper d-flex align-items-center"
             >
-                <SwiperSlide><img className='w-100' src="/img/Frame 1.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 1.png" alt="" /></SwiperSlide>
 
-                <SwiperSlide><img className='w-100' src="/img/Frame 2.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 2.png" alt="" /></SwiperSlide>
 
-                <SwiperSlide><img className='w-100' src="/img/Frame 3.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 3.png" alt="" /></SwiperSlide>
 
-                <SwiperSlide><img className='w-100' src="/img/Frame 4.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 4.png" alt="" /></SwiperSlide>
 
-                <SwiperSlide><img className='w-100' src="/img/Frame 5.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 5.png" alt="" /></SwiperSlide>
 
-                <SwiperSlide><img className='w-100' src="/img/Frame 6.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 6.png" alt="" /></SwiperSlide>
 
-                <SwiperSlide><img className='w-100' src="/img/Frame 7.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 7.png" alt="" /></SwiperSlide>
 
-                <SwiperSlide><img className='w-100' src="/img/Frame 8.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 8.png" alt="" /></SwiperSlide>
 
-                <SwiperSlide><img className='w-100' src="/img/Frame 9.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 9.png" alt="" /></SwiperSlide>
 
-                <SwiperSlide><img className='w-100' src="/img/Frame 10.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 11.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 12.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 13.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 14.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 15.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 16.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 17.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 18.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 19.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 20.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 21.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 22.png" alt="" /></SwiperSlide>
-                <SwiperSlide><img className='w-100' src="/img/Frame 23.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 10.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 11.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 12.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 13.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 14.png" alt="" /></SwiperSlide>
+                {/* <SwiperSlide> <img className='w-100' src="/img/Frame 15.png" alt="" /></SwiperSlide> */}
+                <SwiperSlide> <img className='w-100' src="/img/Frame 16.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 17.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 18.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 19.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 20.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 21.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 22.png" alt="" /></SwiperSlide>
+                <SwiperSlide> <img className='w-100' src="/img/Frame 23.png" alt="" /></SwiperSlide>
             </Swiper>
         </div>
     )
